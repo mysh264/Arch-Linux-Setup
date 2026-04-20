@@ -373,27 +373,29 @@ kwin-scripts-krohnkite
   https://github.com/moodyhunter/applet-window-buttons6
 
 ## To do "Add".
-* ~~Firefox extensions.~~
-* Google Chrome extensions.
-* ~~Github mpv conf~~
-
-* ~~GitHub wallpapers to ($HOME/.Wallpapers).~~
+- [x] ~~Firefox extensions.~~
+- [ ] Google Chrome extensions.
+- [x] ~~Github mpv conf~~
+- [x] ~~GitHub wallpapers to ($HOME/.Wallpapers).~~
   * ~~Wallpaper Archive.~~
     * ~~https://github.com/vimlinuz/wall-archive~~
   * ~~Eurohouse Wallpaper Collection.~~
     * ~~https://github.com/eurohouse/baron~~
   * ~~Wavo Wallpaper Collection.~~
     * ~~https://github.com/thor-op/w~~
-  * Bash Script, to download them and clean them for extra files & Folders.
-    * Or just clone The Wallpapers Folder.
+- [ ] Bash Script, to download them and clean them for extra files & Folders.
+  - [ ] Or just clone The Wallpapers Folder.
 
-* Plasma Add-ONs.
+- ~~[x] Plasma Add-ONs.~~
 
-* ~~Skwd-wall ($HOME/Pictures/Wallpapers).~~
+- [x] ~~Skwd-wall ($HOME/Pictures/Wallpapers).~~
   * ~~https://github.com/liixini/skwd-wall~~
   * ~~https://github.com/liixini/skwd-wall#base-wallpaper-path~~
 
 * Add webkit5 links.
+  * https://aur.archlinux.org/packages/qt5-webengine
+  * https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/
+
 * Set up Plymouth.
 * no title and border kde plasma for all window
 
