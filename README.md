@@ -373,8 +373,19 @@ kwin-scripts-krohnkite
   https://github.com/moodyhunter/applet-window-buttons6
 
 ## To do "Add".
-- [x] ~~Firefox extensions.~~
 - [ ] Google Chrome extensions.
+- [ ] Set up Plymouth.
+- [ ] Modify Grub theme.
+  * https://github.com/ahmedmoselhi/distro-grub-themes
+  * https://k1ng.dev/distro-grub-themes/preview
+
+- [ ] Add qt5-webengine links. "Take so Long to build through yay (AUR)"
+  * https://aur.archlinux.org/packages/qt5-webengine
+  * https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/
+
+- [ ] Clean Reference from duplicate Links.
+
+- [x] ~~Firefox extensions.~~
 - [x] ~~Github mpv conf~~
 - [x] ~~GitHub wallpapers to ($HOME/.Wallpapers).~~
   * ~~Wallpaper Archive.~~
@@ -392,14 +403,8 @@ kwin-scripts-krohnkite
   * ~~https://github.com/liixini/skwd-wall~~
   * ~~https://github.com/liixini/skwd-wall#base-wallpaper-path~~
 
-- [ ] Add qt5-webengine links. "Take so Long to build through yay (AUR)"
-  * https://aur.archlinux.org/packages/qt5-webengine
-  * https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/
 
-- [ ] Set up Plymouth.
 - [x] ~~No title and border KDE Plasma for all windows~~
 
-- [ ] Modify Grub.
-  * https://github.com/ahmedmoselhi/distro-grub-themes
-  * https://k1ng.dev/distro-grub-themes/preview
+
 
