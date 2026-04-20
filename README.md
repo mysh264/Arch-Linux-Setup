@@ -118,10 +118,23 @@ skwd wall toggle
   https://github.com/luisbocanegra/plasma-smart-video-wallpaper-reborn
 
 * plasma-applet-window-buttons
-  Plasma applet in order to show window buttons in your panels.
+  Plasma applet to show window buttons in your panels.
   https://github.com/moodyhunter/applet-window-buttons6
 
+## To do "Add"
+* Github mpv conf
+* GitHub wallpapers to .wallpapers
+  https://github.com/vimlinuz/wall-archive
+  https://github.com/eurohouse/baron
 
+  ~/Pictures/Wallpapers
+  https://github.com/liixini/skwd-wall#base-wallpaper-path
+
+* Modify grub
+  https://github.com/ahmedmoselhi/distro-grub-themes
+  https://k1ng.dev/distro-grub-themes/preview
+  
+  
 ## Droped
 ```
 plasma6-applets-panel-colorizer
