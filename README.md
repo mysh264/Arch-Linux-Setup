@@ -273,6 +273,20 @@ yay -S plasma6-applets-panel-colorizer
 ## Gnome Add-On
 * Later
 
+## KDE Plasma Modification
+
+### To remove titles and borders from all windows in KDE Plasma
+
+    Permanent Method (Rules):
+    Open System Settings.
+    Go to Window Management > Window Rules.
+    Click + Add New...
+    Description: Type something like "No Borders".
+    Window class: Choose Regular Expression and enter .*.
+    Click + Add Property and select No titlebar and frame.
+    Set the property to Force and Yes.
+    Apply and Save. 
+
 ## Firefox extensions.
 1. [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 2. [YouTube Enhancer 💻](https://addons.mozilla.org/en-US/firefox/addon/youtube-enhancer-vc/?utm_source=addons.mozilla.org)
@@ -381,6 +395,7 @@ kwin-scripts-krohnkite
 
 * Add webkit5 links.
 * Set up Plymouth.
+* no title and border kde plasma for all window
 
 * Modify Grub.
   * https://github.com/ahmedmoselhi/distro-grub-themes
