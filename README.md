@@ -5,7 +5,7 @@ My Personal Arch Linux "EndeavourOS" "KDE Plasma" "Wayland" Setup.
 
 ### Pacman
 ```
-sudo pacman -S mpv mpv-mpris gparted gnome-disk-utility discover kfind qbittorrent sniffnet thunderbird thunderbird-i18n-en-us thunderbird-i18n-ar hunspell-en_us yakuake fish fisher fastfetch flatpak-kcm plasma-applet-window-buttons catfish speech-dispatcher
+sudo pacman -S mpv xclip mpv-mpris gparted gpart udftools gnome-disk-utility discover fwupd flatpak kfind qbittorrent sniffnet thunderbird thunderbird-i18n-en-us thunderbird-i18n-ar hunspell-en_us yakuake fish fisher fastfetch chafa  flatpak-kcm plasma-applet-window-buttons catfish zeitgeist speech-dispatcher festival espeak-ng
 ```
 ### AUR
 ```
@@ -20,9 +20,12 @@ flatpak install app.zen_browser.zen com.github.tchx84.Flatseal com.stremio.Strem
 ```
 sudo systemctl enable bluetooth
 ```
+```
+sudo systemctl start bluetooth
+```
 
 ## Shell Pt. 1
-### Install fish instead of Bash.
+### Using fish instead of Bash.
 ```
 chsh -s $(which fish)
 ```
@@ -37,7 +40,7 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 ### Edit fish config file.
 Disable Greating & Enable Fastfetch.
 ```
-nano $HOME/config/fish/config.fish
+nano $HOME/.config/fish/config.fish
 ```
 ```
 if status is-interactive
@@ -53,10 +56,43 @@ end
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 ```
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv fish)"' >> /home/mahmoud/.config/fish/config.fish
+echo >> $HOME/.config/fish/config.fish
+```
+```
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv fish)"' >> $HOME/.config/fish/config.fish
 ```
 ```
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv fish)"
+```
+Refrence
+```
+Warning: /home/linuxbrew/.linuxbrew/bin is not in your PATH.
+  Instructions on how to configure your shell for Homebrew
+  can be found in the 'Next steps' section below.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run these commands in your terminal to add Homebrew to your PATH:
+    echo >> /home/mahmoud/.bashrc
+    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"' >> /home/mahmoud/.bashrc
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"
+- Install Homebrew's dependencies if you have sudo access:
+    sudo pacman -S base-devel
+  For more information, see:
+    https://docs.brew.sh/Homebrew-on-Linux
+- We recommend that you install GCC:
+    brew install gcc
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
 ```
 
 ## install [Sheets](https://github.com/maaslalani/sheets).
@@ -76,6 +112,23 @@ systemctl --user enable --now skwd-daemon.service
 skwd wall toggle
 ```
 
+## MPV config
+### Clone my config
+```
+cd $HOME/.config/mpv
+```
+```
+git clone https://github.com/mysh264/mpv-config.git
+```
+```
+mv mpv-config/* .
+```
+```
+mv mpv-config/.* .
+```
+```
+cd
+```
 ## Reference.
 
 * [Sniffnet](https://sniffnet.net/)
@@ -135,6 +188,10 @@ skwd wall toggle
   https://k1ng.dev/distro-grub-themes/preview
   
 * add firefox extinctions
+  [Adaptive Tab Bar Color](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+  
+  [Time Tracker - Web Habit Builder](https://addons.mozilla.org/en-US/firefox/addon/besttimetracker/)
+  
   
 ## Droped
 ```
