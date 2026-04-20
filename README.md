@@ -386,11 +386,11 @@ kwin-scripts-krohnkite
   * https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/
 
 - [ ] Add Marksman installing for kate "Markdown" support
-      * https://github.com/artempyanykh/marksman
-      * https://github.com/artempyanykh/marksman/blob/main/docs/install.md
-      * brew install marksman
-      * sudo pacman -S markdownpart
-      * https://www.reddit.com/r/kde/comments/rjsm25/how_do_i_use_kmarkdownpart/
+  * https://github.com/artempyanykh/marksman
+  * https://github.com/artempyanykh/marksman/blob/main/docs/install.md
+    * brew install marksman
+  * https://www.reddit.com/r/kde/comments/rjsm25/how_do_i_use_kmarkdownpart/
+    * sudo pacman -S markdownpart
 
 - [ ] Clean Reference from duplicate Links.
 
