@@ -185,14 +185,12 @@ Clone [Wallpaper Archive.](https://github.com/vimlinuz/wall-archive)
 ```
 git clone https://github.com/vimlinuz/wall-archive.git
 ```
-Clone [Eurohouse Wallpaper Collection.](https://github.com/eurohouse/baron)
-```
-git clone https://github.com/eurohouse/baron.git
-```
 Clone [Wavo Wallpaper Collection.](https://github.com/thor-op/w)
 ```
 git clone https://github.com/thor-op/w.git
 ```
+~~Clone [Eurohouse Wallpaper Collection.](https://github.com/eurohouse/baron)~~
+~~```git clone https://github.com/eurohouse/baron.git```~~
 Return to $HOME.
 ```
 cd
@@ -200,8 +198,8 @@ cd
 
 ### Download Them Manually.
 * [Wallpaper Archive.](https://github.com/vimlinuz/wall-archive)
-* [Eurohouse Wallpaper Collection.](https://github.com/eurohouse/baron)
 * [Wavo Wallpaper Collection.](https://github.com/thor-op/w)
+* ~~[Eurohouse Wallpaper Collection.](https://github.com/eurohouse/baron)~~
 
 ## Setup [Plymouth.](https://wiki.archlinux.org/title/Plymouth)
 * Later
