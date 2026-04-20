@@ -205,18 +205,13 @@ cd
 
 ## Setup [Plymouth.](https://wiki.archlinux.org/title/Plymouth)
 * Later
-* Refrence
+* Reference
   * https://www.reddit.com/r/EndeavourOS/comments/1ejxi95/guide_for_setting_up_plymouth_and_suggestions_to/
   * https://www.reddit.com/r/EndeavourOS/comments/1oerbcj/plymouth_install_and_make_functional/
   * https://github.com/Overc1ocker/kameleon-eos
 
 ## KDE Plasma Add-On
 
-flatpak-kcm
-plymouth-kcm
-kde-material-you-colors
-plasma-applet-window-buttons
-plasma6-wallpapers-smart-video-wallpaper-reborn
 
 plasma6-applets-panel-colorizer
 kwin-scripts-krohnkite
@@ -250,6 +245,11 @@ kwin-scripts-krohnkite
   yay -S plasma6-wallpapers-smart-video-wallpaper-reborn
   ```
 
+* [Panel Colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer)
+  * [KDE Store](https://store.kde.org/p/2130967)
+```
+yay -S plasma6-applets-panel-colorizer
+```
 
 
 ## Gnome Add-On
