@@ -5,7 +5,7 @@ My Personal Arch Linux "EndeavourOS" "KDE Plasma" "Wayland" Setup.
 
 ### Pacman
 ```
-sudo pacman -S mpv xclip mpv-mpris gparted gpart udftools gnome-disk-utility discover fwupd flatpak kfind qbittorrent sniffnet thunderbird thunderbird-i18n-en-us thunderbird-i18n-ar hunspell-en_us yakuake fish fisher fastfetch chafa  flatpak-kcm plasma-applet-window-buttons catfish zeitgeist speech-dispatcher festival espeak-ng
+sudo pacman -S mpv xclip mpv-mpris gparted gpart udftools gnome-disk-utility discover fwupd flatpak kfind qbittorrent sniffnet thunderbird thunderbird-i18n-en-us thunderbird-i18n-ar hunspell-en_us yakuake fish fisher fastfetch chafa flatpak-kcm plymouth-kcm plasma-applet-window-buttons catfish zeitgeist speech-dispatcher festival espeak-ng
 ```
 ### AUR
 ```
@@ -18,10 +18,7 @@ flatpak install app.zen_browser.zen com.github.tchx84.Flatseal com.stremio.Strem
 
 ## Enable Bluetooth.
 ```
-sudo systemctl enable bluetooth
-```
-```
-sudo systemctl start bluetooth
+sudo systemctl enable bluetooth ; sudo systemctl start bluetooth
 ```
 
 ## Shell Pt. 1
@@ -100,7 +97,7 @@ No analytics data has been sent yet (nor will any be during this install run).
 brew install sheets
 ```
 
-## Install [skwd-wall](https://github.com/liixini/skwd-wall).
+## Install [Skwd-wall](https://github.com/liixini/skwd-wall).
 ```
 # Install Skwd-wall and all its dependencies
 yay -S skwd-wall
@@ -113,11 +110,48 @@ skwd wall toggle
 ```
 
 ## MPV config
-### Clone my config "Using bash script"
+### ~~Clone my config "Using bash script"~~
 
-https://github.com/mysh264/Arch-Linux-Setup/blob/main/Fresh_install_mpv_conf.sh
+~~https://github.com/mysh264/Arch-Linux-Setup/blob/main/Fresh_install_mpv_conf.sh~~
 
-### Clone my config "Manualy"
+```
+#!/bin/bash
+#set -x
+
+# Only for the first time, can't use it for update.
+# TO DO
+  # 1. Make it to update the MPV conf.
+
+# ENV
+gitrepo=https://github.com/mysh264/mpv-config.git
+mpvconf=$HOME/.config/mpv
+gitmpvconf=$mpvconf/mpv-config
+
+# Make MPV config Folder.
+
+if [ -d $mpvconf ]; then
+    echo "MPV Config directory exists."
+    cd $mpvconf
+    else
+    echo "MPV Config directory does not exist."
+    echo "Making MPV Config directory."
+        mkdir $mpvconf
+    echo "DONE."
+    cd $mpvconf
+    fi
+
+############################################
+
+git clone $gitrepo ;
+echo "Git clone Done" ;
+mv -f $gitmpvconf/{*,.*} . ;
+echo "Move all files from $gitmpvconf to $mpvconf DONE" ;
+rm -rvf $gitmpvconf ;
+echo "Remove $gitmpvconf DONE" ;
+cd ;
+```
+
+### Clone my config "Manually".
 ```
 cd $HOME/.config/mpv
 ```
@@ -125,10 +159,7 @@ cd $HOME/.config/mpv
 git clone https://github.com/mysh264/mpv-config.git
 ```
 ```
-mv mpv-config/* .
-```
-```
-mv mpv-config/.* .
+mv mpv-config/{*,.*} .
 ```
 ```
 rm -rvf mpv-config
@@ -136,6 +167,134 @@ rm -rvf mpv-config
 ```
 cd
 ```
+
+## Wallpaper Collections
+### ~~Using bash script~~
+* Later
+
+### Using Terminal. "Manually"
+make $HOME/.Wallpapers Folder.
+```
+mkdir $HOME/.Wallpapers
+```
+Open $HOME/.Wallpapers.
+```
+cd $HOME/.Wallpapers
+```
+Clone [Wallpaper Archive.](https://github.com/vimlinuz/wall-archive)
+```
+git clone https://github.com/vimlinuz/wall-archive.git
+```
+Clone [Eurohouse Wallpaper Collection.](https://github.com/eurohouse/baron)
+```
+git clone https://github.com/eurohouse/baron.git
+```
+Clone [Wavo Wallpaper Collection.](https://github.com/thor-op/w)
+```
+git clone https://github.com/thor-op/w.git
+```
+Return to $HOME.
+```
+cd
+```
+
+### Download Them Manually.
+* [Wallpaper Archive.](https://github.com/vimlinuz/wall-archive)
+* [Eurohouse Wallpaper Collection.](https://github.com/eurohouse/baron)
+* [Wavo Wallpaper Collection.](https://github.com/thor-op/w)
+
+## Setup [Plymouth.](https://wiki.archlinux.org/title/Plymouth)
+* Later
+* Refrence
+  * https://www.reddit.com/r/EndeavourOS/comments/1ejxi95/guide_for_setting_up_plymouth_and_suggestions_to/
+  * https://www.reddit.com/r/EndeavourOS/comments/1oerbcj/plymouth_install_and_make_functional/
+  * https://github.com/Overc1ocker/kameleon-eos
+
+## KDE Plasma Add-On
+
+flatpak-kcm
+plymouth-kcm
+kde-material-you-colors
+plasma-applet-window-buttons
+plasma6-wallpapers-smart-video-wallpaper-reborn
+
+plasma6-applets-panel-colorizer
+kwin-scripts-krohnkite
+
+
+* [flatpak-kcm.](https://github.com/KDE/flatpak-kcm)
+  ```
+  sudo pacman -S flatpak-kcm
+  ```
+
+* [plymouth-kcm.](https://github.com/KDE/plymouth-kcm)
+  ```
+  sudo pacman -S plymouth-kcm
+  ```
+
+* [KDE Material You Colors.](https://github.com/luisbocanegra/kde-material-you-colors)
+  * https://www.reddit.com/r/kde/comments/1qappo7/kde_material_you_colors_theme_compatibility/
+  ```
+  yay -S kde-material-you-colors
+  ```
+
+* [Window Buttons Applet.](https://github.com/moodyhunter/applet-window-buttons6)
+  * 
+  ```
+  yay -S plasma-applet-window-buttons
+  ```
+
+* [Smart Video Wallpaper Reborn.](https://github.com/luisbocanegra/plasma-smart-video-wallpaper-reborn)
+  * [KDE Store.](https://store.kde.org/p/2139746)
+  ```
+  yay -S plasma6-wallpapers-smart-video-wallpaper-reborn
+  ```
+
+
+
+## Gnome Add-On
+* Later
+
+## Firefox extensions.
+1. [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+2. [YouTube Enhancer 💻](https://addons.mozilla.org/en-US/firefox/addon/youtube-enhancer-vc/?utm_source=addons.mozilla.org)
+3. [Simple Translate](https://addons.mozilla.org/en-US/firefox/addon/simple-translate/)
+4. [Grammarly: AI Writing and Grammar Checker App](https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/)
+5. [Adaptive Tab Bar Color](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/)
+6. [Time Tracker - Web Habit Builder](https://addons.mozilla.org/en-US/firefox/addon/besttimetracker/)
+7. [Server IP](https://addons.mozilla.org/en-US/firefox/addon/server-ip/)
+8. [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)
+9. [Allow Right-Click](https://addons.mozilla.org/en-US/firefox/addon/re-enable-right-click/)
+10. [Open Link with New Tab](https://addons.mozilla.org/en-US/firefox/addon/open-link-with-new-tab/)
+11. [I still don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/)
+12. [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
+
+## Google Chrome Extension. 
+* Later
+
+## Firefox extensions. (Dropped)
+* ~~[OneTab](https://addons.mozilla.org/en-US/firefox/addon/onetab/)~~
+* ~~[Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/)~~
+* ~~[Grammar and Spell Checker - LanguageTool](https://addons.mozilla.org/en-US/firefox/addon/languagetool/)~~
+* ~~['Improve YouTube!' 🎧 (For YouTube & Video)](https://addons.mozilla.org/en-US/firefox/addon/youtube-addon/)~~
+* ~~[DownThemAll!](https://addons.mozilla.org/en-US/firefox/addon/downthemall/)~~
+* ~~[Video DownloadHelper](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/)~~
+* ~~[Instagram Downloader](https://addons.mozilla.org/en-US/firefox/addon/ins-downloader/)~~
+* ~~[Cookie-Editor](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)~~
+* ~~[OCR - Image Reader](https://addons.mozilla.org/en-US/firefox/addon/ocr-image-reader/)~~
+* ~~[Font Finder (revived)](https://addons.mozilla.org/en-US/firefox/addon/font-inspect/)~~
+* ~~[Enpass Password Manager](https://addons.mozilla.org/en-US/firefox/addon/enpass_password_manager/)~~
+* ~~[Country Flags & IP Whois](https://addons.mozilla.org/en-US/firefox/addon/country-flags-ip-whois/)~~
+* ~~[Read Aloud: A Text to Speech Voice Reader](https://addons.mozilla.org/en-US/firefox/addon/read-aloud/)~~
+* ~~[Wayback Machine](https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/)~~
+
+## Apps Dropped.
+```
+plasma6-applets-panel-colorizer
+mpv-mpris2-bin
+kwin-scripts-krohnkite 
+```
+
 ## Reference.
 
 * [Sniffnet](https://sniffnet.net/)
@@ -181,28 +340,31 @@ cd
   Plasma applet to show window buttons in your panels.
   https://github.com/moodyhunter/applet-window-buttons6
 
-## To do "Add"
+## To do "Add".
+* ~~Firefox extensions.~~
+* Google Chrome extensions.
 * ~~Github mpv conf~~
-* GitHub wallpapers to .wallpapers
-  https://github.com/vimlinuz/wall-archive
-  https://github.com/eurohouse/baron
 
-  ~/Pictures/Wallpapers
-  https://github.com/liixini/skwd-wall#base-wallpaper-path
+* ~~GitHub wallpapers to ($HOME/.Wallpapers).~~
+  * ~~Wallpaper Archive.~~
+    * ~~https://github.com/vimlinuz/wall-archive~~
+  * ~~Eurohouse Wallpaper Collection.~~
+    * ~~https://github.com/eurohouse/baron~~
+  * ~~Wavo Wallpaper Collection.~~
+    * ~~https://github.com/thor-op/w~~
+  * Bash Script, to download them and clean them for extra files & Folders.
+    * Or Just clone The Wallpapers Folder.
 
-* Modify grub
-  https://github.com/ahmedmoselhi/distro-grub-themes
-  https://k1ng.dev/distro-grub-themes/preview
-  
-* add firefox extinctions
-  [Adaptive Tab Bar Color](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
-  
-  [Time Tracker - Web Habit Builder](https://addons.mozilla.org/en-US/firefox/addon/besttimetracker/)
-  
-  
-## Droped
-```
-plasma6-applets-panel-colorizer
-mpv-mpris2-bin
-kwin-scripts-krohnkite 
-```
+* Plasma Add-ONs.
+
+* ~~Skwd-wall ($HOME/Pictures/Wallpapers).~~
+  * ~~https://github.com/liixini/skwd-wall~~
+  * ~~https://github.com/liixini/skwd-wall#base-wallpaper-path~~
+
+* Add webkit5 links.
+* setup plymouth.
+
+* Modify Grub.
+  * https://github.com/ahmedmoselhi/distro-grub-themes
+  * https://k1ng.dev/distro-grub-themes/preview
+
