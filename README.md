@@ -238,7 +238,7 @@ yay -S kwin-scripts-krohnkite
   yay -S kde-material-you-colors
   ```
 
-### Panel
+### Panel Modification.
 - [Window Buttons Applet.](https://github.com/moodyhunter/applet-window-buttons6)
   * [KDE Store](https://store.kde.org/p/1272871/)
   ```
@@ -372,30 +372,42 @@ kwin-scripts-krohnkite
   Plasma applet to show window buttons in your panels.
   https://github.com/moodyhunter/applet-window-buttons6
 
-* Zed "Flatpak"
+* [Zed](https://zed.dev/)
+  - ```curl -f https://zed.dev/install.sh | sh```
+
+  - https://flathub.org/en/apps/dev.zed.Zed
+    - ```flatpak install dev.zed.Zed```
+
+  - https://zed.dev/docs/linux#other-ways-to-install-zed-on-linux
+    - https://archlinux.org/packages/extra/x86_64/zed/
+      - ```sudo pacman -S zed```
 
 ## To do "Add".
 - [ ] Google Chrome extensions.
+
 - [ ] Set up Plymouth.
+
 - [ ] Modify Grub theme.
   * https://github.com/ahmedmoselhi/distro-grub-themes
   * https://k1ng.dev/distro-grub-themes/preview
 
-- [ ] Add qt5-webengine links. "Take so Long to build through yay (AUR)"
+- [ ] Add Qt5-WebEngine links. "Take so Long to build through yay (AUR)."
   * https://aur.archlinux.org/packages/qt5-webengine
   * https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/
 
-- [ ] Add Marksman installing for kate "Markdown" support
+- [ ] Add Marksman installing for Kate "Markdown" support
+- DID NOT Work "Used zed instead."
   * https://github.com/artempyanykh/marksman
   * https://github.com/artempyanykh/marksman/blob/main/docs/install.md
     * brew install marksman
   * https://www.reddit.com/r/kde/comments/rjsm25/how_do_i_use_kmarkdownpart/
     * sudo pacman -S markdownpart
 
+- [ ] Gnome Add-on
 - [ ] Clean Reference from duplicate Links.
+- [ ] Clean Apps Droped.
 
-- [x] ~~Firefox extensions.~~
-- [x] ~~Github mpv conf~~
+## Semi Done
 - [x] ~~GitHub wallpapers to ($HOME/.Wallpapers).~~
   * ~~Wallpaper Archive.~~
     * ~~https://github.com/vimlinuz/wall-archive~~
@@ -406,14 +418,24 @@ kwin-scripts-krohnkite
   - [ ] Bash Script, to download them and clean them from extra files & Folders.
     - [ ] Or just clone The Wallpapers Folder.
 
-- ~~[x] Plasma Add-ONs.~~
-
+## Done.
+- [x] ~~Firefox extensions.~~
+- [x] ~~Github mpv conf~~
 - [x] ~~Skwd-wall ($HOME/Pictures/Wallpapers).~~
   * ~~https://github.com/liixini/skwd-wall~~
   * ~~https://github.com/liixini/skwd-wall#base-wallpaper-path~~
-
-
 - [x] ~~No title and border KDE Plasma for all windows~~
+- [x] ~~Eanable Bluetooth~~
+- [x] ~~Using Fish instead Bash~~
+- [x] ~~Modify Fish~~
+- [x] ~~Install Oh my fish~~
+- [x] ~~Install Brew~~
+- [x] ~~Install Sheets~~
+- [x] ~~KDE Plasma KCMs~~
+- [x] ~~KDE Plasma Addons~~
+- [x] ~~Panle Modifiction~~
+- [x] ~~KDE Plasma Modification~~
+  - [x] ~~To remove titles and borders from all windows in KDE Plasma~~
 
 
 
