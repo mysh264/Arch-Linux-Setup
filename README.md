@@ -263,6 +263,12 @@ yay -S kwin-scripts-krohnkite
 yay -S plasma6-applets-panel-spacer-extended
 ```
 
+* [Kurve](https://github.com/luisbocanegra/kurve)
+* [KDE Store](https://store.kde.org/p/2299506)
+```
+yay -S plasma6-applets-kurve
+```
+
 ## Gnome Add-On
 * Later
 
@@ -364,7 +370,7 @@ kwin-scripts-krohnkite
   * ~~Wavo Wallpaper Collection.~~
     * ~~https://github.com/thor-op/w~~
   * Bash Script, to download them and clean them for extra files & Folders.
-    * Or Just clone The Wallpapers Folder.
+    * Or just clone The Wallpapers Folder.
 
 * Plasma Add-ONs.
 
@@ -373,7 +379,7 @@ kwin-scripts-krohnkite
   * ~~https://github.com/liixini/skwd-wall#base-wallpaper-path~~
 
 * Add webkit5 links.
-* setup plymouth.
+* Set up Plymouth.
 
 * Modify Grub.
   * https://github.com/ahmedmoselhi/distro-grub-themes
