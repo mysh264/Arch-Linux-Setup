@@ -383,8 +383,8 @@ kwin-scripts-krohnkite
     * ~~https://github.com/eurohouse/baron~~
   * ~~Wavo Wallpaper Collection.~~
     * ~~https://github.com/thor-op/w~~
-- [ ] Bash Script, to download them and clean them for extra files & Folders.
-  - [ ] Or just clone The Wallpapers Folder.
+  - [ ] Bash Script, to download them and clean them from extra files & Folders.
+    - [ ] Or just clone The Wallpapers Folder.
 
 - ~~[x] Plasma Add-ONs.~~
 
@@ -392,12 +392,12 @@ kwin-scripts-krohnkite
   * ~~https://github.com/liixini/skwd-wall~~
   * ~~https://github.com/liixini/skwd-wall#base-wallpaper-path~~
 
-* Add webkit5 links.
+- [ ] Add qt5-webengine links. "Take so Long to build through yay (AUR)"
   * https://aur.archlinux.org/packages/qt5-webengine
   * https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/
 
-* Set up Plymouth.
-* no title and border kde plasma for all window
+- [ ] Set up Plymouth.
+- [x] no title and border kde plasma for all window
 
 * Modify Grub.
   * https://github.com/ahmedmoselhi/distro-grub-themes
