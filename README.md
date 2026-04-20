@@ -383,6 +383,11 @@ kwin-scripts-krohnkite
   * https://aur.archlinux.org/packages/qt5-webengine
   * https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/
 
+- [ ] Add Marksman installing for kate "Markdown" support
+      * https://github.com/artempyanykh/marksman
+      * https://github.com/artempyanykh/marksman/blob/main/docs/install.md
+      * brew install marksman
+
 - [ ] Clean Reference from duplicate Links.
 
 - [x] ~~Firefox extensions.~~
