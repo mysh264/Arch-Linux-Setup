@@ -95,12 +95,12 @@ No analytics data has been sent yet (nor will any be during this install run).
     https://docs.brew.sh
 ```
 
-## install [Sheets](https://github.com/maaslalani/sheets).
+## Install [Sheets](https://github.com/maaslalani/sheets).
 ```
 brew install sheets
 ```
 
-## install [skwd-wall](https://github.com/liixini/skwd-wall).
+## Install [skwd-wall](https://github.com/liixini/skwd-wall).
 ```
 # Install Skwd-wall and all its dependencies
 yay -S skwd-wall
@@ -113,7 +113,11 @@ skwd wall toggle
 ```
 
 ## MPV config
-### Clone my config
+### Clone my config "Using bash script"
+
+https://github.com/mysh264/Arch-Linux-Setup/blob/main/Fresh_install_mpv_conf.sh
+
+### Clone my config "Manualy"
 ```
 cd $HOME/.config/mpv
 ```
@@ -125,6 +129,9 @@ mv mpv-config/* .
 ```
 ```
 mv mpv-config/.* .
+```
+```
+rm -rvf mpv-config
 ```
 ```
 cd
@@ -175,7 +182,7 @@ cd
   https://github.com/moodyhunter/applet-window-buttons6
 
 ## To do "Add"
-* Github mpv conf
+* ~~Github mpv conf~~
 * GitHub wallpapers to .wallpapers
   https://github.com/vimlinuz/wall-archive
   https://github.com/eurohouse/baron
