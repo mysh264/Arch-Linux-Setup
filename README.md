@@ -9,7 +9,7 @@ sudo pacman -S mpv xclip mpv-mpris gparted gpart udftools gnome-disk-utility dis
 ```
 ### AUR
 ```
-yay -S pamac-all grub-customizer jdownloader2 kde-material-you-colors hunspell-ar ventoy-bin --noconfirm
+yay -S pamac-all grub-customizer jdownloader2 kde-material-you-colors kwin-scripts-krohnkite hunspell-ar ventoy-bin --noconfirm
 ```
 ### Flatpak
 ```
@@ -251,6 +251,17 @@ kwin-scripts-krohnkite
 yay -S plasma6-applets-panel-colorizer
 ```
 
+* [Kröhnkite](https://github.com/esjeon/krohnkite)
+  * [KDE Store](https://store.kde.org/p/2144146/)
+```
+yay -S kwin-scripts-krohnkite
+```
+
+* [Panel Spacer Extended](https://github.com/luisbocanegra/plasma-panel-spacer-extended)
+* [KDE Store](https://store.kde.org/p/2128047)
+```
+yay -S plasma6-applets-panel-spacer-extended
+```
 
 ## Gnome Add-On
 * Later
