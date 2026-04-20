@@ -212,62 +212,63 @@ cd
 
 ## KDE Plasma Add-On
 
-
-plasma6-applets-panel-colorizer
-kwin-scripts-krohnkite
-
-
-* [flatpak-kcm.](https://github.com/KDE/flatpak-kcm)
+### KCMs
+- [Flatpak KCM](https://github.com/KDE/flatpak-kcm)
   ```
   sudo pacman -S flatpak-kcm
   ```
 
-* [plymouth-kcm.](https://github.com/KDE/plymouth-kcm)
+- [Plymouth KCM](https://github.com/KDE/plymouth-kcm)
   ```
   sudo pacman -S plymouth-kcm
   ```
 
-* [KDE Material You Colors.](https://github.com/luisbocanegra/kde-material-you-colors)
-  * https://www.reddit.com/r/kde/comments/1qappo7/kde_material_you_colors_theme_compatibility/
-  ```
-  yay -S kde-material-you-colors
-  ```
-
-* [Window Buttons Applet.](https://github.com/moodyhunter/applet-window-buttons6)
-  * 
-  ```
-  yay -S plasma-applet-window-buttons
-  ```
-
-* [Smart Video Wallpaper Reborn.](https://github.com/luisbocanegra/plasma-smart-video-wallpaper-reborn)
-  * [KDE Store.](https://store.kde.org/p/2139746)
-  ```
-  yay -S plasma6-wallpapers-smart-video-wallpaper-reborn
-  ```
-
-* [Panel Colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer)
-  * [KDE Store](https://store.kde.org/p/2130967)
-```
-yay -S plasma6-applets-panel-colorizer
-```
-
-* [Kröhnkite](https://github.com/esjeon/krohnkite)
+### WM like i3
+- [Kröhnkite](https://github.com/esjeon/krohnkite)
   * [KDE Store](https://store.kde.org/p/2144146/)
 ```
 yay -S kwin-scripts-krohnkite
 ```
 
-* [Panel Spacer Extended](https://github.com/luisbocanegra/plasma-panel-spacer-extended)
-* [KDE Store](https://store.kde.org/p/2128047)
+### Color Theme
+- [KDE Material You Colors.](https://github.com/luisbocanegra/kde-material-you-colors)
+  * [KDE Store](https://store.kde.org/p/2073783)
+  * [Reddit](https://www.reddit.com/r/kde/comments/1qappo7/kde_material_you_colors_theme_compatibility/)
+  ```
+  yay -S kde-material-you-colors
+  ```
+
+### Panel
+- [Window Buttons Applet.](https://github.com/moodyhunter/applet-window-buttons6)
+  * [KDE Store](https://store.kde.org/p/1272871/)
+  ```
+  yay -S plasma-applet-window-buttons
+  ```
+
+- [Panel Spacer Extended](https://github.com/luisbocanegra/plasma-panel-spacer-extended)
+  * [KDE Store](https://store.kde.org/p/2128047)
 ```
 yay -S plasma6-applets-panel-spacer-extended
 ```
 
-* [Kurve](https://github.com/luisbocanegra/kurve)
-* [KDE Store](https://store.kde.org/p/2299506)
+- [Kurve](https://github.com/luisbocanegra/kurve)
+  * [KDE Store](https://store.kde.org/p/2299506)
 ```
 yay -S plasma6-applets-kurve
 ```
+
+- [Panel Colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer)
+  * [KDE Store](https://store.kde.org/p/2130967)
+```
+yay -S plasma6-applets-panel-colorizer
+```
+### Video Wallpaper
+
+- [Smart Video Wallpaper Reborn.](https://github.com/luisbocanegra/plasma-smart-video-wallpaper-reborn)
+  * [KDE Store.](https://store.kde.org/p/2139746)
+  ```
+  yay -S plasma6-wallpapers-smart-video-wallpaper-reborn
+  ```
 
 ## Gnome Add-On
 * Later
