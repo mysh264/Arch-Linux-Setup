@@ -13,7 +13,7 @@ yay -S pamac-all grub-customizer jdownloader2 kde-material-you-colors kwin-scrip
 ```
 ### Flatpak
 ```
-flatpak install app.zen_browser.zen com.github.tchx84.Flatseal com.stremio.Stremio io.github.cboxdoerfer.FSearch org.gnome.Boxes.Extension.OsinfoDb
+flatpak install app.zen_browser.zen com.github.tchx84.Flatseal com.stremio.Stremio io.github.cboxdoerfer.FSearch org.gnome.Boxes.Extension.OsinfoDb dev.zed.Zed
 ```
 
 ## Enable Bluetooth.
@@ -372,6 +372,8 @@ kwin-scripts-krohnkite
   Plasma applet to show window buttons in your panels.
   https://github.com/moodyhunter/applet-window-buttons6
 
+* Zed "Flatpak"
+
 ## To do "Add".
 - [ ] Google Chrome extensions.
 - [ ] Set up Plymouth.
@@ -387,6 +389,8 @@ kwin-scripts-krohnkite
       * https://github.com/artempyanykh/marksman
       * https://github.com/artempyanykh/marksman/blob/main/docs/install.md
       * brew install marksman
+      * sudo pacman -S markdownpart
+      * https://www.reddit.com/r/kde/comments/rjsm25/how_do_i_use_kmarkdownpart/
 
 - [ ] Clean Reference from duplicate Links.
 
