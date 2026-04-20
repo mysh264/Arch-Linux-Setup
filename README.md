@@ -397,9 +397,9 @@ kwin-scripts-krohnkite
   * https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/
 
 - [ ] Set up Plymouth.
-- [x] no title and border kde plasma for all window
+- [x] ~~no title and border KDE Plasma for all windows~~
 
-* Modify Grub.
+- [ ] Modify Grub.
   * https://github.com/ahmedmoselhi/distro-grub-themes
   * https://k1ng.dev/distro-grub-themes/preview
 
