@@ -134,6 +134,7 @@ skwd wall toggle
   https://github.com/ahmedmoselhi/distro-grub-themes
   https://k1ng.dev/distro-grub-themes/preview
   
+* add firefox extinctions
   
 ## Droped
 ```
