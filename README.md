@@ -9,7 +9,7 @@ sudo pacman -S mpv xclip mpv-mpris gparted gpart udftools gnome-disk-utility dis
 ```
 ### AUR
 ```
-yay -S pamac-all grub-customizer jdownloader2 kde-material-you-colors kwin-scripts-krohnkite hunspell-ar ventoy-bin --noconfirm
+yay -S pamac-all grub-customizer jdownloader2 kde-material-you-colors kwin-scripts-krohnkite plasma6-applets-panel-spacer-extended plasma6-applets-kurve hunspell-ar ventoy-bin --noconfirm
 ```
 ### Flatpak
 ```
