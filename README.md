@@ -402,6 +402,13 @@ kwin-scripts-krohnkite
     * sudo pacman -S markdownpart
 
 - [ ] Gnome Add-on
+- [ ] youtube-tui
+  * https://www.xda-developers.com/watch-youtube-from-the-terminal-because-am-man-of-culture/
+  * yay -S youtube-tui
+  * https://github.com/Siriusmart/youtube-tui
+
+- [ ] ytsurf "yay -S ytsurf"
+  * https://github.com/Stan-breaks/ytsurf
 - [ ] Clean Reference from duplicate Links.
 - [ ] Clean Apps Droped.
 
