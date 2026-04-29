@@ -287,7 +287,7 @@ yay -S plasma6-applets-panel-colorizer
 
 ## Firefox extensions.
 1. [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-2. [YouTube Enhancer 💻](https://addons.mozilla.org/en-US/firefox/addon/youtube-enhancer-vc/?utm_source=addons.mozilla.org)
+2. [Tweaks for YouTube](https://addons.mozilla.org/en-US/firefox/addon/tweaks-for-youtube/)
 3. [Simple Translate](https://addons.mozilla.org/en-US/firefox/addon/simple-translate/)
 4. [Grammarly: AI Writing and Grammar Checker App](https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/)
 5. [Adaptive Tab Bar Color](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/)
@@ -307,6 +307,7 @@ yay -S plasma6-applets-panel-colorizer
 * ~~[Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/)~~
 * ~~[Grammar and Spell Checker - LanguageTool](https://addons.mozilla.org/en-US/firefox/addon/languagetool/)~~
 * ~~['Improve YouTube!' 🎧 (For YouTube & Video)](https://addons.mozilla.org/en-US/firefox/addon/youtube-addon/)~~
+* ~~[YouTube Enhancer 💻](https://addons.mozilla.org/en-US/firefox/addon/youtube-enhancer-vc/?utm_source=addons.mozilla.org)~~
 * ~~[DownThemAll!](https://addons.mozilla.org/en-US/firefox/addon/downthemall/)~~
 * ~~[Video DownloadHelper](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/)~~
 * ~~[Instagram Downloader](https://addons.mozilla.org/en-US/firefox/addon/ins-downloader/)~~
