@@ -288,16 +288,17 @@ yay -S plasma6-applets-panel-colorizer
 ## Firefox extensions.
 1. [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 2. [Tweaks for YouTube](https://addons.mozilla.org/en-US/firefox/addon/tweaks-for-youtube/)
-3. [Simple Translate](https://addons.mozilla.org/en-US/firefox/addon/simple-translate/)
-4. [Grammarly: AI Writing and Grammar Checker App](https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/)
-5. [Adaptive Tab Bar Color](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/)
-6. [Time Tracker - Web Habit Builder](https://addons.mozilla.org/en-US/firefox/addon/besttimetracker/)
-7. [Server IP](https://addons.mozilla.org/en-US/firefox/addon/server-ip/)
-8. [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)
-9. [Allow Right-Click](https://addons.mozilla.org/en-US/firefox/addon/re-enable-right-click/)
-10. [Open Link with New Tab](https://addons.mozilla.org/en-US/firefox/addon/open-link-with-new-tab/)
-11. [I still don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/)
-12. [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
+3. ~[Simple Translate](https://addons.mozilla.org/en-US/firefox/addon/simple-translate/)~
+4. [Simple Translate Popup Fix](https://addons.mozilla.org/en-GB/firefox/addon/simple-translate-popup-fix/)
+5. [Grammarly: AI Writing and Grammar Checker App](https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/)
+6. [Adaptive Tab Bar Color](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/)
+7. [Time Tracker - Web Habit Builder](https://addons.mozilla.org/en-US/firefox/addon/besttimetracker/)
+8. [Server IP](https://addons.mozilla.org/en-US/firefox/addon/server-ip/)
+9. [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)
+10. [Allow Right-Click](https://addons.mozilla.org/en-US/firefox/addon/re-enable-right-click/)
+11. [Open Link with New Tab](https://addons.mozilla.org/en-US/firefox/addon/open-link-with-new-tab/)
+12. [I still don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/)
+13. [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
 
 ## Google Chrome Extension. 
 * Later
