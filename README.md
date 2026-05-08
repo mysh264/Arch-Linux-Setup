@@ -290,6 +290,11 @@ yay -S plasma6-applets-panel-colorizer
 2. [Tweaks for YouTube](https://addons.mozilla.org/en-US/firefox/addon/tweaks-for-youtube/)
 3. ~[Simple Translate](https://addons.mozilla.org/en-US/firefox/addon/simple-translate/)~
 4. [Simple Translate Popup Fix](https://addons.mozilla.org/en-GB/firefox/addon/simple-translate-popup-fix/)
+   * _Note:_
+   * _"Target language: Arabic"_
+   * _"Second language : English"_
+   * _"Choose (Behavior when selecting text: Display translation panel)"_
+   * _"Automatically switch to the second language - [x]"_
 5. [Grammarly: AI Writing and Grammar Checker App](https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/)
 6. [Adaptive Tab Bar Color](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/)
 7. [Time Tracker - Web Habit Builder](https://addons.mozilla.org/en-US/firefox/addon/besttimetracker/)
@@ -301,7 +306,21 @@ yay -S plasma6-applets-panel-colorizer
 13. [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
 
 ## Google Chrome Extension. 
-* Later
+1. [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+2. [Tweaks for YouTube](https://chromewebstore.google.com/detail/tweaks-for-youtube/ogkoifddpkoabehfemkolflcjhklmkge)
+3. [Simple Translate](https://chromewebstore.google.com/detail/simple-translate/ibplnjkanclpjokhdolnendpplpjiace)
+   * _Note:_
+   * _"Target language: Arabic"_
+   * _"Second language : English"_
+   * _"Choose (Behavior when selecting text: Display translation panel)"_
+   * _"Automatically switch to the second language - [x]"_
+
+4. [AI Grammar Checker & Paraphraser – LanguageTool](https://chromewebstore.google.com/detail/ai-grammar-checker-paraph/oldceeleldhonbafppcapldpdifcinji)
+5. [Time Tracker - Web Habit Builder](https://chromewebstore.google.com/detail/time-tracker-web-habit-bu/dkdhhcbjijekmneelocdllcldcpmekmm)
+6. [Server IP](https://chromewebstore.google.com/detail/server-ip/adcbaggcjppnkmhfmjcdgagmggnfeikh)
+7. [User-Agent Switcher and Manager](http://chromewebstore.google.com/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg)
+8. [Allow Right-Click](https://chromewebstore.google.com/detail/allow-right-click/hnafhkjheookmokbkpnfpmemlppjdgoi)
+9. [I still don't care about cookies](https://chromewebstore.google.com/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm)
 
 ## Firefox extensions. (Dropped)
 * ~~[OneTab](https://addons.mozilla.org/en-US/firefox/addon/onetab/)~~
